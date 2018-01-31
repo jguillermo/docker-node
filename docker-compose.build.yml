@@ -1,0 +1,17 @@
+version: '2'
+services:
+
+  node-6:
+      image: jguillermo/docker-node:6
+      build:
+        context: ./docker/node-6/
+
+  node-8:
+      image: jguillermo/docker-node:8
+      build:
+        context: ./docker/node-8/
+
+  node-9:
+      image: jguillermo/docker-node:9
+      build:
+        context: ./docker/node-9/
